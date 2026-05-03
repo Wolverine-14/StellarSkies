@@ -1,0 +1,13 @@
+name = "Simple Flint Tools"
+filename = "simple_flint_tools-1.1.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ry6C1BcO/versions/Ye37bXFU/simple_flint_tools-1.1.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "863d278189688ce6681fb6ca6814b501b6301bdee9cf388f2bcf34a14fc87b376b86e88a2d7bf00b5e43ae073f66c79c0ea6227e1cc404f422878768962d1468"
+
+[update]
+[update.modrinth]
+mod-id = "Ry6C1BcO"
+version = "Ye37bXFU"

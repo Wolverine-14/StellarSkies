@@ -1,0 +1,13 @@
+name = "No Tree Punch"
+filename = "notreepunch-1.1.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Z3o0dzxH/versions/pxz77je5/notreepunch-1.1.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "d10788fdccfa986148b984147aa4d9ed73e0bcf30af8bee0a9a138027dde1190950d22f32c513d88ef37bd7cda22943822f6c4859d8dea6199d093e9d2f7d206"
+
+[update]
+[update.modrinth]
+mod-id = "Z3o0dzxH"
+version = "pxz77je5"
