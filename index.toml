@@ -5,6 +5,30 @@ file = "config/defaultworldtype/client-config.toml"
 hash = "a01566d4f68e5d684e082bf854324007aa3d14c0bac606863de2e21525eea916"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "c9edf0669f5e7a84aa92597334f33c523b6be2dda9fd3cc63f4be54f3a102fd8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/computers.snbt"
+hash = "fdf092c9d127df4ceab8a09ff86894e42c87d13f729ef4ea4ec570d5e1da9070"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/getting_started.snbt"
+hash = "988e2e76c7e5d4ad8a08c66b077fb58b1bfa9e007f16ffa02f739296f3764bbb"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/spells.snbt"
+hash = "e3e9f56fdbeaa16611e73d6dbd6c0650c16f73bbc3d1bf81f5ed861f8aebfc9a"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "d7dd511fa89cc9066374f537d8e9259d6caff8fe7db0a0a04db3af393100e0a4"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "330df82375d880356b73ff66ba37e707e58af95fa74e5a014995e259139abe6e"
+
+[[files]]
 file = "config/sky_archipelago-common.toml"
 hash = "8c0387008f95f453a95a9b74407a52cdcf339503aa06b932d8f4a8e5993ab345"
 

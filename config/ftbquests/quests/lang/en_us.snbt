@@ -1,0 +1,12 @@
+{
+	chapter.11C1B37368DFD881.title: "Getting Started"
+	chapter.6066A23808CA2F09.title: "Spells"
+	chapter.72B0C61573A973B4.title: "Computers"
+	chapter_group.1483B2BD5DB322FC.title: "Transportation"
+	chapter_group.250F0ECB0A31A26D.title: "Programing"
+	quest.3F334FFB55107F61.quest_desc: ["Spells are constructed with a kind of node based programming language. Check the Encyclopedia Psionica for how to get started"]
+	quest.6C24EC13D53F36B6.quest_desc: ["With the world being made of floating Islands you're going to need a way to get around."]
+	quest.6C24EC13D53F36B6.title: "First Air Ship"
+	task.0C5E476043DB37A0.title: "Burner"
+	task.34272EB03854F58B.title: "Physics Assembler"
+}

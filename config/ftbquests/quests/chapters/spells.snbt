@@ -1,0 +1,36 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spells"
+	group: "250F0ECB0A31A26D"
+	id: "6066A23808CA2F09"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "3F334FFB55107F61"
+		tasks: [
+			{
+				id: "51B630B1F4C2AD91"
+				item: { count: 1, id: "psi:programmer" }
+				type: "item"
+			}
+			{
+				id: "3FD4CB8A16892EE0"
+				item: { count: 1, id: "psi:spell_bullet" }
+				type: "item"
+			}
+			{
+				id: "2845B481D0B8E1E1"
+				item: { count: 1, id: "psi:cad_assembly_iron" }
+				type: "item"
+			}
+			{
+				id: "1947EB40B40D2578"
+				item: { count: 1, id: "psi:cad_assembler" }
+				type: "item"
+			}
+		]
+		x: -1.0d
+		y: -0.5d
+	}]
+}

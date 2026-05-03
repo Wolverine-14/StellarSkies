@@ -1,0 +1,63 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "1483B2BD5DB322FC"
+	id: "11C1B37368DFD881"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "6C24EC13D53F36B6"
+		rewards: [
+			{
+				id: "15D81162C8F23E1A"
+				item: {
+					count: 1
+					id: "simulated:red_portable_engine"
+				}
+				only_one: true
+				team_reward: false
+				type: "item"
+			}
+			{
+				id: "10CD76F60E541465"
+				item: {
+					count: 1
+					id: "aeronautics:wooden_propeller"
+				}
+				only_one: true
+				team_reward: false
+				type: "item"
+			}
+		]
+		tasks: [
+			{
+				advancement: "simulated:applied_kinematics"
+				criterion: ""
+				id: "34272EB03854F58B"
+				type: "advancement"
+			}
+			{
+				consume_items: false
+				count: 53L
+				id: "532254F2C6F4C26B"
+				item: { count: 1, id: "aeronautics:white_envelope" }
+				optional_task: true
+				type: "item"
+			}
+			{
+				advancement: "aeronautics:head_in_the_clouds"
+				criterion: ""
+				id: "0C5E476043DB37A0"
+				type: "advancement"
+			}
+			{
+				id: "1DBF9E4BCF422B9A"
+				item: { count: 1, id: "create:analog_lever" }
+				type: "item"
+			}
+		]
+		x: 1.5d
+		y: 0.5d
+	}]
+}
