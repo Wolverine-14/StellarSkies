@@ -40,7 +40,9 @@ items = [
 #]
 names = [
     "brass",
-    "train"
+    "train",
+    "track",
+    "railway"
 ]
 
 unlocked_items = [
