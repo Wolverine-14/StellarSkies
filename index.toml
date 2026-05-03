@@ -153,6 +153,11 @@ hash = "2982241c441c5d781f7046c3d138cff4417a8aa07dc730abc71b374fb47c5a05"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
+metafile = true
+
+[[files]]
 file = "mods/power-grid.pw.toml"
 hash = "1c5522db3b8327e889b0ec6fe8569c4f864b8515a5f1cf439c4bae86a86234e2"
 metafile = true
