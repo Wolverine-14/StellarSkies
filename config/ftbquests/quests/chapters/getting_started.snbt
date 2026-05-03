@@ -55,7 +55,7 @@
 				}
 			]
 			x: 1.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2731D6189B43E272"]
@@ -66,8 +66,107 @@
 				item: { count: 1, id: "simulated:physics_assembler" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"726A795E52A4DF39"
+				"7BADB1253E783C7F"
+			]
+			id: "4848B0380E251B23"
+			tasks: [{
+				id: "2708B75994DC77C2"
+				item: { count: 1, id: "simulated:analog_transmission" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["726A795E52A4DF39"]
+			id: "4FA14727E9C835BF"
+			tasks: [{
+				id: "2531348D9C6A0931"
+				item: { count: 1, id: "simulated:docking_connector" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C24EC13D53F36B6"]
+			id: "7BADB1253E783C7F"
+			rewards: [{
+				count: 2
+				id: "5A97FBE285E93B27"
+				item: {
+					count: 1
+					id: "simulated:white_symmetric_sail"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A3DA5087707463B"
+					item: { count: 1, id: "simulated:steering_wheel" }
+					type: "item"
+				}
+				{
+					id: "7157980F50FA3B54"
+					item: { count: 1, id: "create:mechanical_bearing" }
+					type: "item"
+				}
+				{
+					id: "454997BE2186004F"
+					item: { count: 1, id: "create:vertical_gearbox" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11D6857A336B8BDB"]
+			id: "311B3049276FA4C3"
+			tasks: [
+				{
+					count: 4L
+					id: "12E28EEAC0EFCD60"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1D04B0AB423EF8E3"
+					item: { count: 1, id: "offroad:small_tire" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["11D6857A336B8BDB"]
+			id: "3BCB7B8E9F08FD56"
+			tasks: [{
+				id: "2528045D83517CC3"
+				item: { count: 1, id: "create:white_sail" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11D6857A336B8BDB"]
+			id: "53F5644D76B7926E"
+			tasks: [{
+				id: "5FC6109A116F695E"
+				item: { count: 1, id: "minecraft:oak_boat" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
 		}
 	]
 }

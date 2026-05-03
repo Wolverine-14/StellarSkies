@@ -16,7 +16,7 @@
 				item: { count: 1, id: "create:wand_of_symmetry" }
 				type: "item"
 			}]
-			x: -6.5d
+			x: -9.5d
 			y: 0.5d
 		}
 		{
@@ -38,7 +38,7 @@
 				item: { count: 1, id: "create:goggles" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -6.5d
 			y: 0.5d
 		}
 		{
@@ -49,6 +49,16 @@
 				type: "item"
 			}]
 			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "48CC1D4D59DE3F4E"
+			tasks: [{
+				id: "15DB1DEEF8258F66"
+				item: { count: 1, id: "simulated:contraption_diagram" }
+				type: "item"
+			}]
+			x: -3.5d
 			y: 0.5d
 		}
 	]

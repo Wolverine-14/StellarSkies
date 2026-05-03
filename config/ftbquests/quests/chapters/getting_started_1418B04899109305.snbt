@@ -6,20 +6,145 @@
 	id: "1418B04899109305"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "2731D6189B43E272"
-		rewards: [{
-			auto: "invisible"
-			id: "5A0839134FC639E5"
-			stage: "andesite_age"
-			type: "gamestage"
-		}]
-		tasks: [{
-			id: "128F0AEDE7DC0362"
-			item: { count: 1, id: "create:andesite_alloy" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"39A662CFF745E36A"
+				"7828E56309CD35F4"
+			]
+			id: "2731D6189B43E272"
+			rewards: [{
+				auto: "invisible"
+				id: "5A0839134FC639E5"
+				stage: "andesite_age"
+				type: "gamestage"
+			}]
+			tasks: [{
+				advancement: "create:andesite_alloy"
+				criterion: ""
+				id: "4A21EB95B08891A2"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["190D735569EBBEF8"]
+			hide_until_deps_complete: true
+			id: "66EF42F0B000CFBA"
+			tasks: [{
+				id: "05C19A1FF4ACD017"
+				item: { count: 1, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["190D735569EBBEF8"]
+			hide_until_deps_complete: true
+			id: "6F89C263183A3B52"
+			tasks: [{
+				id: "65B1A89474B209A4"
+				item: { count: 1, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6F89C263183A3B52"
+				"66EF42F0B000CFBA"
+			]
+			id: "4C9E009CFFA7DF5C"
+			tasks: [{
+				id: "5CB02B4EE53F30B6"
+				item: { count: 1, id: "simple_flint_tools:flinthatchet" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "190D735569EBBEF8"
+			tasks: [{
+				id: "1B7229342A97C23C"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6459EAC63EB681D3"]
+			id: "7828E56309CD35F4"
+			tasks: [{
+				id: "7CF85F1980D7508B"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6459EAC63EB681D3"]
+			id: "39A662CFF745E36A"
+			tasks: [{
+				id: "7C3F402E67C89F45"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["43C791E7F6D8181F"]
+			id: "3AFDEDEFB175FCF3"
+			rewards: [{
+				id: "1F8B6ADE54D014D8"
+				item: {
+					count: 1
+					id: "slag:modular_item"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1B7561F233C414C1"
+					item: { components: { "slag:material_type": "slag:wooden", "slag:part_type": "slag:pickaxe_head" }, count: 1, id: "slag:dynamic_part" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1B8A6206A8FC21B8"
+					item: { count: 1, id: "minecraft:stick" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AFDEDEFB175FCF3"]
+			id: "6459EAC63EB681D3"
+			tasks: [{
+				id: "466FFE0C036FEB1C"
+				item: { components: { "slag:material_type": "slag:stone", "slag:part_type": "slag:pickaxe_head" }, count: 1, id: "slag:dynamic_part" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C9E009CFFA7DF5C"]
+			id: "43C791E7F6D8181F"
+			tasks: [{
+				id: "2E9EAF333821EDEA"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+	]
 }
