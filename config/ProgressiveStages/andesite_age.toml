@@ -8,7 +8,8 @@ unlock_message = "&6&lAndesite Age Unlocked!"
 [locks]
 # =============================================================================
 items = [
-
+    "create:brass_casing",
+    "create:brass_ingot"
 ]
 mods = [
     "create",

@@ -6,14 +6,13 @@ unlock_message = "&6&lBrass Age Unlocked!"
 
 [locks]
 # =============================================================================
-#recipe_items = [
-#    "aeronautics:propeller_bearing"
-#]
 items = [
+    #Aeronautics
     "aeronautics:propeller_bearing",
-    "simulated:gyroscopic_mechanism",
     "aeronautics:gyroscopic_propeller_bearing",
     "aeronautics:smart_propeller",
+    #Smulated
+    "simulated:gyroscopic_mechanism",
     "simulated:navigation_table",
     "simulated:gimbal_sensor",
     "simulated:optical_sensor",
@@ -26,33 +25,59 @@ items = [
     "simulated:throttle_lever",
     "simulated:linked_typewriter",
     "simulated:directional_linked_receiver",
-    "create:smart_chute",
-    "create:smart_fluid_pipe",
-    "create:extendo_grip",
-    "create:wand_of_symmetry",
+
+    #Create Redstone
+    "create:content_observer",
     "create:pulse_repeater",
     "create:pulse_extender",
-    "create:elevator_pulley",
-    "create:pulse_timer"
-]
-#blocks = [
-#    "aeronautics:propeller_bearing"
-#]
-names = [
-    "brass",
-    "train",
-    "track",
-    "railway"
-]
+    "create:pulse_timer",
+    "create:stockpile_switch",
+    "create:display_link",
+    "create:peculiar_bell",
+    "create:haunted_bell",
+    
+    #Create Components
+    "create:brass_hand",
+    "create:brass_sheet",
+    
+    #Create Decorations
+    "create:brass_table_cloth",
+    "create:brass_bars",
+    "create:brass_door",
+    "create:brass_scaffolding",
+    "create:brass_ladder",
+    "create:brass_block",
 
-unlocked_items = [
-    #"minecraft:andesite",
-    #"minecraft:andesite_slab",
-    #"minecraft:andesite_stairs",
-    #"minecraft:andesite_wall",
-    #"minecraft:polished_andesite",
-    #"minecraft:polished_andesite_slab",
-    #"minecraft:polished_andesite_stairs",
-    "create:brass_casing",
-    "create:brass_ingot"
+    #Create Contraptions
+    "create:elevator_pulley",
+    "create:smart_fluid_pipe",
+    "create:flywheel",
+    "create:rotation_speed_controller",
+    "create:mechanical_arm",
+    "create:mechanical_crafter",
+    "create:sequenced_gearshift",
+
+    #Create Filters
+    "create:smart_chute",
+    "create:brass_tunnel",
+    "create:brass_funnel",
+    "create:filter",
+    "create:attribute_filter",
+    "create:package_filter",
+
+    #Create Tools
+    "create:wand_of_symmetry",
+    "create:extendo_grip",
+    "create:crafter_slot_cover",
+
+    #Create Trains
+    "create:track",
+    "create:track_observer",
+    "create:track_signal",
+    "create:track_station",
+    "create:railway_casing",
+    "create:train_door",
+    "create:train_trapdoor",
+    "create:schedule",
+    "create:controls"
 ]

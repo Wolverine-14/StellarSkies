@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/ProgressiveStages/andesite_age.toml"
-hash = "3c75dd94aa12a403374d304a3c9a971fa203fc1215cd88380b85d88788f5d4fc"
+hash = "a0b546fb6f11641b31ee73c917d98817d96c5c525a26be8d0147ff584150a2a2"
 
 [[files]]
 file = "config/ProgressiveStages/brass_age.toml"
-hash = "c521e7d22575179859126fc182c8387c12bb8183efe53e1a542d475487c7bd0c"
+hash = "9c667e88d1feffa93e6ed7f851151b3f9d0597f90d1b0db0cbae2650530a47a5"
 
 [[files]]
 file = "config/ProgressiveStages/diamond_age.toml"
