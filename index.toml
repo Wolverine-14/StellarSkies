@@ -153,6 +153,10 @@ hash = "2982241c441c5d781f7046c3d138cff4417a8aa07dc730abc71b374fb47c5a05"
 metafile = true
 
 [[files]]
+file = "mods/nobuildzone-1.0.0.jar"
+hash = "4a05248b4ee0d0921623e9a9c9458984cd1091accc9d54605a9dc1c874bad77d"
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
 metafile = true
