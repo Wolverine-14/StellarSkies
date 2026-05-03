@@ -192,6 +192,11 @@ hash = "4031829e5dbccf24fcc592f3dd4a28f997cf0f6a09640ed5a54d1067d2191684"
 metafile = true
 
 [[files]]
+file = "mods/slag-n-embers-create-compat.pw.toml"
+hash = "b377333619badeeb3f33e633879db9dd5d56cbde411f974c469bc3f53b24e349"
+metafile = true
+
+[[files]]
 file = "mods/slag-n-embers.pw.toml"
 hash = "06c12af9aec7b5fa061113809e75d898bca4786ed1746b113df4ab1b996b5d5c"
 metafile = true
