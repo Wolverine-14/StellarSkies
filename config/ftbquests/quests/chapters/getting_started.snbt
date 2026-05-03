@@ -6,58 +6,68 @@
 	id: "11C1B37368DFD881"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "6C24EC13D53F36B6"
-		rewards: [
-			{
-				id: "15D81162C8F23E1A"
-				item: {
-					count: 1
-					id: "simulated:red_portable_engine"
+	quests: [
+		{
+			dependencies: ["11D6857A336B8BDB"]
+			id: "6C24EC13D53F36B6"
+			rewards: [
+				{
+					id: "15D81162C8F23E1A"
+					item: {
+						count: 1
+						id: "simulated:red_portable_engine"
+					}
+					only_one: true
+					team_reward: false
+					type: "item"
 				}
-				only_one: true
-				team_reward: false
-				type: "item"
-			}
-			{
-				id: "10CD76F60E541465"
-				item: {
-					count: 1
-					id: "aeronautics:wooden_propeller"
+				{
+					count: 53
+					id: "5ADC5C3DA05A1D0F"
+					item: {
+						count: 1
+						id: "aeronautics:white_envelope"
+					}
+					type: "item"
 				}
-				only_one: true
-				team_reward: false
+			]
+			tasks: [
+				{
+					advancement: "simulated:applied_kinematics"
+					criterion: ""
+					id: "34272EB03854F58B"
+					type: "advancement"
+				}
+				{
+					id: "1DBF9E4BCF422B9A"
+					item: { count: 1, id: "create:analog_lever" }
+					type: "item"
+				}
+				{
+					id: "452EFAB5DED05848"
+					item: { count: 1, id: "aeronautics:andesite_propeller" }
+					type: "item"
+				}
+				{
+					id: "54652BD515DAEA1B"
+					item: { count: 1, id: "aeronautics:adjustable_burner" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2731D6189B43E272"]
+			hide_until_deps_complete: true
+			id: "11D6857A336B8BDB"
+			tasks: [{
+				id: "0EFF73BF7255ED5A"
+				item: { count: 1, id: "simulated:physics_assembler" }
 				type: "item"
-			}
-		]
-		tasks: [
-			{
-				advancement: "simulated:applied_kinematics"
-				criterion: ""
-				id: "34272EB03854F58B"
-				type: "advancement"
-			}
-			{
-				consume_items: false
-				count: 53L
-				id: "532254F2C6F4C26B"
-				item: { count: 1, id: "aeronautics:white_envelope" }
-				optional_task: true
-				type: "item"
-			}
-			{
-				advancement: "aeronautics:head_in_the_clouds"
-				criterion: ""
-				id: "0C5E476043DB37A0"
-				type: "advancement"
-			}
-			{
-				id: "1DBF9E4BCF422B9A"
-				item: { count: 1, id: "create:analog_lever" }
-				type: "item"
-			}
-		]
-		x: 1.5d
-		y: 0.5d
-	}]
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
 }

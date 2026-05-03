@@ -1,6 +1,34 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/ProgressiveStages/andesite_age.toml"
+hash = "669e8c22a9e60cb93299f9376a4d866bb8952d4c735a181a999b2cfd01620379"
+
+[[files]]
+file = "config/ProgressiveStages/brass_age.toml"
+hash = "15ce8b58b517f3e93891283ea65432b1327bb04a4cff4208b89833ec5f6ae500"
+
+[[files]]
+file = "config/ProgressiveStages/diamond_age.toml"
+hash = "bec334eb40eed82261a0e5c15d43436e6076f2128297cb0dec4c03bea62622c0"
+
+[[files]]
+file = "config/ProgressiveStages/iron_age.toml"
+hash = "7f136bccc1352c802de6a5aa0fa2fec62fe761f85de7b750c9926d2dc5523045"
+
+[[files]]
+file = "config/ProgressiveStages/stone_age.toml"
+hash = "01febba96a673dc08a10371ecc117ab107c6197221637fbdac722aa1558cc849"
+
+[[files]]
+file = "config/ProgressiveStages/technological_age.toml"
+hash = "13c6e17a8f06d7c22b69e685b059fcfc510896bf5e3513255bfd8df2ad5ae0c1"
+
+[[files]]
+file = "config/ProgressiveStages/triggers.toml"
+hash = "4763a3239547167b859b2caad014a370b6dce153ddb2de2b7e864ae9b70db207"
+
+[[files]]
 file = "config/defaultworldtype/client-config.toml"
 hash = "a01566d4f68e5d684e082bf854324007aa3d14c0bac606863de2e21525eea916"
 
@@ -9,12 +37,20 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "c9edf0669f5e7a84aa92597334f33c523b6be2dda9fd3cc63f4be54f3a102fd8"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/brass_age.snbt"
+hash = "9e0d887847459394e8cfbe4894341cc717f1e3d50fb6604b2a914d35f2ea49d1"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/computers.snbt"
 hash = "fdf092c9d127df4ceab8a09ff86894e42c87d13f729ef4ea4ec570d5e1da9070"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
-hash = "988e2e76c7e5d4ad8a08c66b077fb58b1bfa9e007f16ffa02f739296f3764bbb"
+hash = "c066dfe5d5bcbfc08ef0f61c9372adb556781cff5f1e2dd9852269da4f509c51"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/getting_started_1418B04899109305.snbt"
+hash = "f6c5e5658653594bae66b95d4f1cbf41acd6a352252541ac247c77c2ab36ae10"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spells.snbt"
@@ -89,6 +125,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
 hash = "7557cd72044ad985b08e452dba7461feb219469e2fea97ea32c6ecd8458b2fd8"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-optimizer.pw.toml"
+hash = "130923cea74d38f39b996ff5884dbfe91dde3f46f2efe330af2ae54d731f6481"
 metafile = true
 
 [[files]]

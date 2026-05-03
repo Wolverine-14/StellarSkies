@@ -1,0 +1,21 @@
+[stage]
+# =============================================================================
+id             = "andesite_age"
+display_name   = "Andesite Age"
+dependency     = ["stone_age"]
+unlock_message = "&6&lAndesite Age Unlocked!"
+
+[locks]
+# =============================================================================
+items = [
+
+]
+mods = [
+    #"create",
+    "aeronautics",
+    "simulated",
+    "offroad"
+]
+unlocked_items = [
+    "create:andesite_alloy"
+]

@@ -1,0 +1,56 @@
+[stage]
+id             = "brass_age"
+display_name   = "Brass Age"
+dependency     = ["andesite_age"]
+unlock_message = "&6&lBrass Age Unlocked!"
+
+[locks]
+# =============================================================================
+#recipe_items = [
+#    "aeronautics:propeller_bearing"
+#]
+items = [
+    "aeronautics:propeller_bearing",
+    "simulated:gyroscopic_mechanism",
+    "aeronautics:gyroscopic_propeller_bearing",
+    "aeronautics:smart_propeller",
+    "simulated:navigation_table",
+    "simulated:gimbal_sensor",
+    "simulated:optical_sensor",
+    "simulated:redstone_inductor",
+    "simulated:directional_linked_reciever",
+    "simulated:redstone_accumulator",
+    "simulated:modulating_linked_receiver",
+    "simulated:docking_connector",
+    "simulated:analog_transmission",
+    "simulated:throttle_lever",
+    "simulated:linked_typewriter",
+    "simulated:directional_linked_receiver",
+    "create:smart_chute",
+    "create:smart_fluid_pipe",
+    "create:extendo_grip",
+    "create:wand_of_symmetry",
+    "create:pulse_repeater",
+    "create:pulse_extender",
+    "create:elevator_pulley",
+    "create:pulse_timer"
+]
+#blocks = [
+#    "aeronautics:propeller_bearing"
+#]
+names = [
+    "brass",
+    "train"
+]
+
+unlocked_items = [
+    #"minecraft:andesite",
+    #"minecraft:andesite_slab",
+    #"minecraft:andesite_stairs",
+    #"minecraft:andesite_wall",
+    #"minecraft:polished_andesite",
+    #"minecraft:polished_andesite_slab",
+    #"minecraft:polished_andesite_stairs",
+    "create:brass_casing",
+    "create:brass_ingot"
+]

@@ -1,0 +1,12 @@
+[stage]
+id             = "technological_age"
+display_name   = "technological_age"
+dependency     = ["brass_age"]
+unlock_message = "&6&lTechnological Age Unlocked!"
+
+[locks]
+# =============================================================================
+mods = [
+    "powergrid",
+    "computercraft"
+]
