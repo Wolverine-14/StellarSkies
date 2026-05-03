@@ -1,8 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/defaultworldtype/client-config.toml"
+hash = "a01566d4f68e5d684e082bf854324007aa3d14c0bac606863de2e21525eea916"
+
+[[files]]
 file = "config/sky_archipelago-common.toml"
 hash = "8c0387008f95f453a95a9b74407a52cdcf339503aa06b932d8f4a8e5993ab345"
+
+[[files]]
+file = "config/sky_archipelago/presets/sparse.json"
+hash = "63e5e995afc7c313cf31470a4d2b784c01546ae89259a6ef83c50d6d1e1cb111"
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
@@ -22,6 +30,11 @@ metafile = true
 [[files]]
 file = "mods/createbetterfps.pw.toml"
 hash = "28e720db43464fe32b9ce591fb02b824ebf691c578fb694f87a98421d3207022"
+metafile = true
+
+[[files]]
+file = "mods/defaultworldtype.pw.toml"
+hash = "6886c6cc7d4d43e2b9792af5c91fe381be0b33b1aea5f0decc465a5c17bc7004"
 metafile = true
 
 [[files]]
