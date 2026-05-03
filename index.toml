@@ -66,7 +66,7 @@ hash = "330df82375d880356b73ff66ba37e707e58af95fa74e5a014995e259139abe6e"
 
 [[files]]
 file = "config/sky_archipelago-common.toml"
-hash = "8c0387008f95f453a95a9b74407a52cdcf339503aa06b932d8f4a8e5993ab345"
+hash = "a704253acc7e7e3ac0635f433058eaccabe5babd2f71ba8b4390b18cb52d1488"
 
 [[files]]
 file = "config/sky_archipelago/presets/sparse.json"
@@ -189,6 +189,11 @@ metafile = true
 [[files]]
 file = "mods/sky-whale-ship.pw.toml"
 hash = "4031829e5dbccf24fcc592f3dd4a28f997cf0f6a09640ed5a54d1067d2191684"
+metafile = true
+
+[[files]]
+file = "mods/slag-n-embers.pw.toml"
+hash = "06c12af9aec7b5fa061113809e75d898bca4786ed1746b113df4ab1b996b5d5c"
 metafile = true
 
 [[files]]
