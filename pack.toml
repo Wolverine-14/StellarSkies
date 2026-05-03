@@ -1,0 +1,13 @@
+name = "Stellar Skies"
+author = "W0lverine_14"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "6f2c0d243411ab6c773174b53475b1db53169c131a39ea86aa4b9286bb9c5ec4"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.228"

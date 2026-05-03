@@ -1,0 +1,13 @@
+name = "Sky Archipelago"
+filename = "Sky-Archipelago-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sHFNUlBU/versions/TMDMIhbi/Sky-Archipelago-1.2.0.jar"
+hash-format = "sha512"
+hash = "338a48d26a6dc56fd7456c02efb46d9c824f747df353441961197d63a8fb6f0e3f6d15ae228ff98049709a8e1076d454ff678a1e33a89d1d0b454cf9e525de7a"
+
+[update]
+[update.modrinth]
+mod-id = "sHFNUlBU"
+version = "TMDMIhbi"

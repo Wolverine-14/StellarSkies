@@ -1,0 +1,13 @@
+name = "ProgressiveStages"
+filename = "progressivestages-1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rY4mdP4Q/versions/bJDWciBd/progressivestages-1.3.jar"
+hash-format = "sha512"
+hash = "cda9c0fd8665389cfbc65c28e2ab652dc11254922aca46a8b123f8ebb6074dce59f016b3ad85184f74b51f7de98ebf23b50dec1a3c18b4b620e9081cfde30e64"
+
+[update]
+[update.modrinth]
+mod-id = "rY4mdP4Q"
+version = "bJDWciBd"
