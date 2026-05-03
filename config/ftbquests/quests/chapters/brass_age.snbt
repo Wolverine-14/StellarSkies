@@ -31,5 +31,25 @@
 			x: -8.0d
 			y: 0.5d
 		}
+		{
+			id: "16C4F371F964C1FF"
+			tasks: [{
+				id: "603A42683E6161E4"
+				item: { count: 1, id: "create:goggles" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			id: "3EF2ED20F33D7581"
+			tasks: [{
+				id: "73AF77EE6A31F04F"
+				item: { count: 1, id: "aeronautics:aviators_goggles" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
 	]
 }

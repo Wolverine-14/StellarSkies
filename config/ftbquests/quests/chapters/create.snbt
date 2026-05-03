@@ -67,5 +67,48 @@
 			x: 6.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["726A795E52A4DF39"]
+			id: "3E318EAB53BBD667"
+			tasks: [
+				{
+					id: "241F7585A4E50CD5"
+					item: { count: 1, id: "create:raw_zinc" }
+					type: "item"
+				}
+				{
+					id: "60A2D7C3E0BA6E34"
+					item: { count: 1, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FE914B0AA2BD465"]
+			id: "6B155BC7CA4413B6"
+			tasks: [{
+				id: "1A96E681B9DC0AFB"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3E318EAB53BBD667"
+				"6B155BC7CA4413B6"
+			]
+			id: "44A736EA43C4542C"
+			tasks: [{
+				id: "2836F978FFCF63BB"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
 	]
 }
