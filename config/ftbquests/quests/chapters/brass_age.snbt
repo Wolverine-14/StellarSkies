@@ -4,18 +4,32 @@
 	filename: "brass_age"
 	group: "1483B2BD5DB322FC"
 	id: "64886F5A4031F9DA"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["726A795E52A4DF39"]
-		hide_until_deps_complete: true
-		id: "77E850DCC3CE4028"
-		tasks: [{
-			id: "5F5841E0D838F065"
-			item: { count: 1, id: "create:wand_of_symmetry" }
-			type: "item"
-		}]
-		x: -6.5d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["726A795E52A4DF39"]
+			hide_until_deps_complete: true
+			id: "77E850DCC3CE4028"
+			tasks: [{
+				id: "5F5841E0D838F065"
+				item: { count: 1, id: "create:wand_of_symmetry" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["726A795E52A4DF39"]
+			hide_until_deps_complete: true
+			id: "669BD747BD7662C2"
+			tasks: [{
+				id: "3851C2745F4BDEFD"
+				item: { count: 1, id: "create:extendo_grip" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+	]
 }

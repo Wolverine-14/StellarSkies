@@ -6,32 +6,20 @@
 	id: "1418B04899109305"
 	order_index: 0
 	quest_links: [ ]
-	quests: [
-		{
-			id: "2731D6189B43E272"
-			rewards: [{
-				auto: "invisible"
-				id: "5A0839134FC639E5"
-				stage: "andesite_age"
-				type: "gamestage"
-			}]
-			tasks: [{
-				id: "128F0AEDE7DC0362"
-				item: { count: 1, id: "create:andesite_alloy" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -0.5d
-		}
-		{
-			id: "726A795E52A4DF39"
-			tasks: [{
-				id: "34F79B6489899188"
-				stage: "brass_age"
-				type: "gamestage"
-			}]
-			x: 1.5d
-			y: -0.5d
-		}
-	]
+	quests: [{
+		id: "2731D6189B43E272"
+		rewards: [{
+			auto: "invisible"
+			id: "5A0839134FC639E5"
+			stage: "andesite_age"
+			type: "gamestage"
+		}]
+		tasks: [{
+			id: "128F0AEDE7DC0362"
+			item: { count: 1, id: "create:andesite_alloy" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: -0.5d
+	}]
 }

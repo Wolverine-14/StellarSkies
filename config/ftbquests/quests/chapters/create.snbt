@@ -1,0 +1,71 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "1483B2BD5DB322FC"
+	id: "2ED780055F42645C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0FE914B0AA2BD465"]
+			id: "1247F5EDF5BBA845"
+			tasks: [{
+				id: "0A15B109FB27E35F"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["264792057ACBA542"]
+			id: "0FE914B0AA2BD465"
+			tasks: [{
+				id: "0A16F2BB731A2F34"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2731D6189B43E272"]
+			hide_until_deps_complete: true
+			id: "264792057ACBA542"
+			tasks: [
+				{
+					id: "5C0974273E143CE8"
+					item: { count: 1, id: "create:water_wheel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1AB0814EC7FDA486"
+					item: { count: 1, id: "create:large_water_wheel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49BE2459826D78B2"
+					item: { count: 1, id: "create:windmill_bearing" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1247F5EDF5BBA845"]
+			id: "726A795E52A4DF39"
+			tasks: [{
+				id: "34F79B6489899188"
+				stage: "brass_age"
+				type: "gamestage"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+}

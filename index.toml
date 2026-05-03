@@ -38,19 +38,23 @@ hash = "c9edf0669f5e7a84aa92597334f33c523b6be2dda9fd3cc63f4be54f3a102fd8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brass_age.snbt"
-hash = "9e0d887847459394e8cfbe4894341cc717f1e3d50fb6604b2a914d35f2ea49d1"
+hash = "1f241d89b27c56fd675628fda6ca6c76793a1c19c0d66f83560291319cc446fa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/computers.snbt"
-hash = "fdf092c9d127df4ceab8a09ff86894e42c87d13f729ef4ea4ec570d5e1da9070"
+hash = "c236ef84bef90b33da7cda2735b63a15a03433f27218aa985f6203aad7150e12"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create.snbt"
+hash = "9ff0f4e404410fd240fc5ec55ca843ba980d1492341b0e3ca18027e1b13069c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
-hash = "c066dfe5d5bcbfc08ef0f61c9372adb556781cff5f1e2dd9852269da4f509c51"
+hash = "d4508b1289406f761a71a541ff1a10d496e92729d555ae79b8383afddfeef624"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started_1418B04899109305.snbt"
-hash = "f6c5e5658653594bae66b95d4f1cbf41acd6a352252541ac247c77c2ab36ae10"
+hash = "8c0eea943b7c31b5446d2f66a809de5d7a997eca6989ddf359ab8ef1d8b2910e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spells.snbt"

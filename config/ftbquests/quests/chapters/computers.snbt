@@ -6,5 +6,14 @@
 	id: "72B0C61573A973B4"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "3781265721638A6E"
+		tasks: [{
+			id: "1F0069A0D7DD8F5E"
+			item: { count: 1, id: "computercraft:computer_normal" }
+			type: "item"
+		}]
+		x: -2.5d
+		y: 0.5d
+	}]
 }
