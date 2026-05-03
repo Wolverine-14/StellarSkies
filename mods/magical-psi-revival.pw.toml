@@ -1,0 +1,13 @@
+name = "Magical Psi: Revival"
+filename = "MagicalPsiRevival-1.21.1-1.1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DvvYZ4Cd/versions/OSRiGh5F/MagicalPsiRevival-1.21.1-1.1.0.5.jar"
+hash-format = "sha512"
+hash = "e1fb7bfb5c51fc86fb6147021f3ac7a18addf76d6a2662b573bae02e84252bf37f8da2251a1ebda55cf8f48c7f941b2650af31b4d5e7177af8ef6d473e9bd4db"
+
+[update]
+[update.modrinth]
+mod-id = "DvvYZ4Cd"
+version = "OSRiGh5F"
