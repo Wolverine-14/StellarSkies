@@ -1,0 +1,13 @@
+name = "Smart Key Prompts"
+filename = "smartkeyprompts-neoforge-1.21.1-1.1.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/E2pYUra0/versions/foo6unyd/smartkeyprompts-neoforge-1.21.1-1.1.3.jar"
+hash-format = "sha512"
+hash = "b6100a1ac47cb9c942ee8f5905fd0211697faeb59022bf65f98692be1d2b9dfa78da594fa74b09496e8f3672aaf652f7c5619998f940a20dcd2ff5bed04da897"
+
+[update]
+[update.modrinth]
+mod-id = "E2pYUra0"
+version = "foo6unyd"

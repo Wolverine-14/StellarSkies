@@ -1,0 +1,13 @@
+name = "CIDE-CC"
+filename = "cide-0.9.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xwfHmqSv/versions/E9IaRWV5/cide-0.9.1.jar"
+hash-format = "sha512"
+hash = "d35cfd07547ad1872a8df74cf498a757802250051316ce46da8744d7153d2cc8c05f7ab8938de979274f727866787a069cdeb07c3bf11a694c601a4691046c2d"
+
+[update]
+[update.modrinth]
+mod-id = "xwfHmqSv"
+version = "E9IaRWV5"

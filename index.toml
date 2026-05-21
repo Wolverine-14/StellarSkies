@@ -82,18 +82,33 @@ hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
-file = "mods/cc-sable.pw.toml"
-hash = "cc686a2a01e80740c102f62c2989ad5e69c675c86c2687b5d49063943506f010"
-metafile = true
-
-[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "d18f00631377bb11109c6cf3c67261aeedec73e79727e50019e91a913ec88183"
 metafile = true
 
 [[files]]
+file = "mods/cide-cc.pw.toml"
+hash = "79a758ed3746ae1ad2d67ccb0a8d3d00dde568e0e5730a659a8099caf3cabcfd"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
+file = "mods/colorwheel.pw.toml"
+hash = "be5d32cc3a6d73a16915e37c022c7a8e7e804baa89a92bb611d778f4a848e91e"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "6ea6284b569b13f45bfe44f9790389de4a2f7cda92c8b3bb94511b600d64c486"
+metafile = true
+
+[[files]]
+file = "mods/create-avionics.pw.toml"
+hash = "8cccda3a227b1a929d391f33fa33ec15582db2b6164a3e36bf89ce756f5c08fd"
 metafile = true
 
 [[files]]
@@ -142,8 +157,28 @@ hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
 metafile = true
 
 [[files]]
+file = "mods/iris.pw.toml"
+hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
+metafile = true
+
+[[files]]
+file = "mods/keybindjs.pw.toml"
+hash = "3a29dce666e2363a46bd1e9d67905feb1cf112fab27c68af99a7abcbacaffba1"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "531aa276b74eabc24566c57412527767238c74ee16b9c646dff511f56dba990c"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "60d0f719a2fc1045e865fc38c0c6d04a733d0ce2e84173be86e999399bcc162d"
 metafile = true
 
 [[files]]
@@ -166,6 +201,11 @@ file = "mods/nobuildzone-1.0.0.jar"
 hash = "4a05248b4ee0d0921623e9a9c9458984cd1091accc9d54605a9dc1c874bad77d"
 
 [[files]]
+file = "mods/oelib.pw.toml"
+hash = "08cdf5ca1d3f2e70d6735dbeb31cee1325d7e985d13d059a5048ee8d15685c28"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
 metafile = true
@@ -186,13 +226,28 @@ hash = "53a629cb7c4c98a5ca555d2adf3ea45b18c837526c54d2decc391d9f4e4f9ede"
 metafile = true
 
 [[files]]
+file = "mods/questlog.pw.toml"
+hash = "648298440bb097ebdba691b5bfe1c1787622d1cb127e51b195c4e1a3235a75f2"
+metafile = true
+
+[[files]]
 file = "mods/sable.pw.toml"
 hash = "e4c43e944439f4941ba1c417ab3ac1ec3dbd9c95a8456a2069641d031317e142"
 metafile = true
 
 [[files]]
+file = "mods/schematicians-goggles.pw.toml"
+hash = "7d5155300b2466fd000d9668c218ecdaf69995b08db2f82c07ae61bf2635ee7f"
+metafile = true
+
+[[files]]
 file = "mods/simple-flint-tools.pw.toml"
 hash = "e66521c8a4ff3f767476416e7bf4e7972d7ff72661c8b9b9535fc0264258dcf9"
+metafile = true
+
+[[files]]
+file = "mods/simulated-extra.pw.toml"
+hash = "bd5d6502e97475e34abbca8898751b8a9400353eb21127f8147fd4437f9d9457"
 metafile = true
 
 [[files]]
@@ -216,6 +271,11 @@ hash = "06c12af9aec7b5fa061113809e75d898bca4786ed1746b113df4ab1b996b5d5c"
 metafile = true
 
 [[files]]
+file = "mods/smart-key-prompts.pw.toml"
+hash = "c3d3ffa79a2404372ab139d07fbbaec6bfeca0fdc0a82d53c3297431798c26f4"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
@@ -223,4 +283,9 @@ metafile = true
 [[files]]
 file = "mods/this-rocks-forge.pw.toml"
 hash = "5535600dcfd4876fc730e9b6b3bb7ab0db8f99dd13d8e7320cd15b8267387333"
+metafile = true
+
+[[files]]
+file = "mods/vanillabackport.pw.toml"
+hash = "ca37901ce16f10e30715edf354b5d08c500e60abdb7ce64da79ce04a3d880ced"
 metafile = true
