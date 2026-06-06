@@ -177,11 +177,6 @@ hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
 metafile = true
 
 [[files]]
-file = "mods/hexcasting.pw.toml"
-hash = "53f7da3b3f31921f268bcda8bcf3ee21d750a2c0d3ad3319896a657c96146631"
-metafile = true
-
-[[files]]
 file = "mods/iris.pw.toml"
 hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
 metafile = true
