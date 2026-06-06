@@ -207,6 +207,11 @@ hash = "58e0bebd41fa44f3f0dd6c053ec3eb1529d4bfe0c054c0741ba6e2e1b8e4523e"
 metafile = true
 
 [[files]]
+file = "mods/lootjs.pw.toml"
+hash = "9b32e1374a3d85ccdd4803c8932f72fbeb6357e69d895980e3f24e1974a07ca6"
+metafile = true
+
+[[files]]
 file = "mods/magical-psi-revival.pw.toml"
 hash = "2982241c441c5d781f7046c3d138cff4417a8aa07dc730abc71b374fb47c5a05"
 metafile = true
